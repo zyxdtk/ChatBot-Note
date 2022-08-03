@@ -1,17 +1,20 @@
-# ChatBot-Note
+# 1. ChatBot-Note
 对话机器人学习笔记
 
-# 
+- [1. ChatBot-Note](#1-chatbot-note)
+- [2. 数据集&指标](#2-数据集指标)
+- [3. 大模型](#3-大模型)
+- [4. 相关公司&开源项目&API](#4-相关公司开源项目api)
+- [5. 参考资料](#5-参考资料)
 
-
-# 数据集&指标
+# 2. 数据集&指标
 
 - [BLEU](https://blog.csdn.net/qq_36652619/article/details/87544918)
 
 语料库
 - [腾讯AI实验室的语料库](https://ai.tencent.com/ailab/nlp/zh/download.html)
 
-# 大模型 
+# 3. 大模型 
 
 - [GPT2]()
   - [5.1k] [Morizeyao/GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese) 中文版GPT2
@@ -31,7 +34,7 @@
   - NASNet [【汉】](https://zhuanlan.zhihu.com/p/52616166)
 
 
-# 相关公司&开源项目&API 
+# 4. 相关公司&开源项目&API 
 
 - 公开的api
   - [小寰API](http://81.70.100.130/) 
@@ -60,7 +63,7 @@
       - [5.3k] [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) cqhttp的golang实现，轻量、原生跨平台
 
 
-# 参考资料
+# 5. 参考资料
 - [737] [qhduan/ConversationalRobotDesign](https://github.com/qhduan/ConversationalRobotDesign) 对话机器人（聊天机器人）设计思考
 - [285] [aceimnorstuvwxz/awesome-chatbot-list](https://github.com/aceimnorstuvwxz/awesome-chatbot-list) 
 - [5.4k] [lcdevelop/ChatBotCourse](https://github.com/lcdevelop/ChatBotCourse) 自己动手做聊天机器人教程
