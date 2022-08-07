@@ -28,27 +28,23 @@
 
 语料库
 - [腾讯AI实验室的语料库](https://ai.tencent.com/ailab/nlp/zh/download.html)
+- [悟道2.0语料](https://resource.wudaoai.cn/home?ind&name=WuDaoCorpora%202.0&id=1394901288847716352) WuDaoCorpora2.0由全球最大的纯文本数据集(总量3TB、开源200GB)、全球最大的多模态数据集(93TB，6.5亿图文对，开源500w对)和全球最大的中文对话数据集(181G,对话轮数1.4B，不开源)三部分构成。
+- [CLUECorpus2020](https://github.com/CLUEbenchmark/CLUECorpus2020)  通过对Common Crawl的中文部分进行语料清洗，最终得到100GB的高质量中文预训练语料
+- [百度DuReader-Retrieval](https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval) 百度利用真实场景下的用户搜索日志，建立了首个大规模高质量中文段落检索数据集
 
 ## 2.2. 对话模型
 
 - 预训练大模型
   - [2018]. [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/abs/1801.07243) 
+  - [GPT]
   - [GPT2]()
-    - [5.1k] [Mor- [ChatBot-Note](#chatbot-note)
-- [文本对话](#文本对话)
-  - [数据集&指标](#数据集指标)
-  - [对话模型](#对话模型)
-  - [开源项目](#开源项目)
-  - [NLP基础](#nlp基础)
-- [语音](#语音)
-- [产品](#产品)
-  - [业界产品](#业界产品)
-  - [对话界面](#对话界面)
-  - [QQ机器人](#qq机器人)
-- [参考资料](#参考资料)izeyao/GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese) 中文版GPT2
-  - [GPT3]()
+    - [5.1k] [GPT2]
+    - [izeyao/GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese) 中文版GPT2
+  - [2020]. [GPT3](https://arxiv.org/pdf/2005.14165.pdf) [【汉】](https://zhuanlan.zhihu.com/p/200978538)
     - [11.4k] [openai/gpt-3](https://github.com/openai/gpt-3) 
     - [3.6k] [elyase/awesome-gpt3](https://github.com/elyase/awesome-gpt3)
+    - [GPT1、GPT2、GPT3原理](https://blog.csdn.net/qq_41357569/article/details/121731981)
+    - [GPT-3的50种玩法告诉你，它很酷，但是没有通过图灵测试](https://zhuanlan.zhihu.com/p/252851574)
   - [lamda: language models for dialog applications](https://arxiv.org/pdf/2201.08239.pdf)[【汉】](https://zhuanlan.zhihu.com/p/462022601)
   - [Towards a Human-like Open-Domain Chatbot](https://arxiv.org/abs/2001.09977)
   - [EVA2.0：大规模中文开放域对话预训练模型](https://blog.csdn.net/weixin_42001089/article/details/123595667)
@@ -63,7 +59,7 @@
   - [2021]. [Controllable Generation from Pre-trained Language Models via Inverse Prompting](https://arxiv.org/pdf/2103.10685.pdf) 用反向prompt来校验prompt的输出
   - [2021]. [A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/abs/2112.00861) 
   - [2022]. [Prompt-Driven Neural Machine Translation](https://aclanthology.org/2022.findings-acl.203.pdf) 尝试了单独给prompt一个encode，把prompt加载输入上等方式。
-  - [Chain of Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+  - [2022]. [Chain of Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 
 
 ## 2.3. 开源项目
@@ -111,6 +107,9 @@
     - [The Design and Implementation of XiaoIce,an Empathetic Social Chatbot](https://arxiv.org/pdf/1812.08989.pdf) 
   - [replika](https://replika.ai/)
     - [Building a compassionate AI friend](https://blog.replika.com/posts/building-a-compassionate-ai-friend) 
+  - [aidungeon](https://aidungeon.cc/) 文字冒险
+    -  [GPT-2的大规模部署：AI Dungeon 2 如何支撑百万级用户](https://blog.csdn.net/weixin_42137700/article/details/104359367)
+    -  [【游戏推荐】 AIDungeon 2](https://zhuanlan.zhihu.com/p/104476177)
 - 公开的api
   - [小寰API](http://81.70.100.130/) 
   - [青云客](http://api.qingyunke.com/)
