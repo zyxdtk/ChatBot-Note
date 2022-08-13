@@ -1,8 +1,22 @@
 
+
+- [1. 大纲 Deep Learning for Human Language Processing](#1-大纲-deep-learning-for-human-language-processing)
+- [2. 语音识别 Speech Recognition](#2-语音识别-speech-recognition)
+  - [2.1. LAS listen,attend,spell](#21-las-listenattendspell)
+  - [2.2. CTC Connectionist Temporal Classification](#22-ctc-connectionist-temporal-classification)
+  - [2.3. HMM](#23-hmm)
+  - [2.4. Alignment](#24-alignment)
+  - [2.5. RNN-T](#25-rnn-t)
+  - [2.6. Language Modeling](#26-language-modeling)
+- [3. Voice Conversion](#3-voice-conversion)
+- [4. Speech Separation](#4-speech-separation)
+
+
+
+# 1. 大纲 Deep Learning for Human Language Processing
+
 [courses_DLHLP20](http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html)
 [B站-[李宏毅]自然语言处理(2020)](https://www.bilibili.com/video/BV1wE411W7TV?p=1&vd_source=72bd417d3c61f48a1851179442d7083c)
-
-# Deep Learning for Human Language Processing
 
 - 课程内容：Text vs Speech = 5:5
   - 只有56%的语言有文字
@@ -49,7 +63,7 @@
 - autoregression 自回归
 - 非自回归
 
-# 语音识别 Speech Recognition
+# 2. 语音识别 Speech Recognition
 
 - 描述SR问题
   - speech  一个vector的序列 (长度T，维度d)
@@ -84,7 +98,7 @@
   - HMM-hybrid(15%)
 
 
-# LAS listen,attend,spell
+## 2.1. LAS listen,attend,spell
 
 - Listen 
   - RNN、1-D CNN
@@ -104,5 +118,68 @@ LAS不是一开始就超越传统模型的，是语料逐渐增加，逐渐优�
 
 LAS的限制，不能一边听一边输出
 
-# CTC Connectionist Temporal Classification
+## 2.2. CTC Connectionist Temporal Classification
 
+## 2.3. HMM
+
+## 2.4. Alignment
+
+## 2.5. RNN-T
+
+## 2.6. Language Modeling
+
+# 3. Voice Conversion
+
+- 应用
+  - 不同的人的声音作用不同
+  - Deep Fake
+  - 个性化的TTS
+  - 唱歌
+  - 隐私保护
+  - 风格转换
+    - 情绪 emotion
+    - Normal-to-Lombard 把声音变清除一点
+    - Whisper-to-Normal 悄悄话转成正常
+    - Singers 技巧
+  - 提升发音
+    - 把声音变清晰
+    - 口音转换
+  - 数据加强
+    - 增加训练数据
+    - 把数据增加噪声
+- 问题
+  - 可以不等长，但是目前主要还是等长序列转换
+  - Vocoder
+    - Rule-based： Griffin-Lim algorithm
+    - Deep Learning: WaveNet
+  - 训练语料
+    - 对称语料
+    - 不对称语料 
+      - 特征区分 Feature Disentangle
+        - 内容信息 Content Encoder
+          - 直接用ASR 
+          - 用NN转成state 
+          - 用一个GAN，保证输出无法被识别出Speaker的信息 
+          - instance normalization
+        - 语者信息 Speaker Encoder
+          - one-hot 
+          - Speaker embedding
+        - Decoder
+          - adaptive instance normalization
+      - 直接转换
+        - cycle GAN
+        - starGAN
+
+
+# 4. Speech Separation
+
+- Evaluation
+  - Signal-to-noise ratio(SNR) 不太好
+  - Scale invariant signal-to-distortion ratio(SI-SDR) 
+  - PESQ 
+  - STOI
+- 模型
+  - Mask
+    - Ideal Binary Mask
+    - Deep Clustering
+  - PIT (permutation invariant training)
