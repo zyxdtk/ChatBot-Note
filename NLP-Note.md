@@ -14,3 +14,4 @@ NLP-Note 自然语言处理笔记
 - [NLP-词向量](https://github.com/DarLiner/Algorithm_Interview_Notes-Chinese/blob/master/B-%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/B-%E4%B8%93%E9%A2%98-%E8%AF%8D%E5%90%91%E9%87%8F.md)
 - [【官方】【中英】CS224n 斯坦福深度自然语言处理课 B站视频](https://www.bilibili.com/video/BV1pt411h7aT?from=search&seid=335450819919994778) 英文还是优点吃不消
 - [NLP-NLP基础](https://github.com/DarLiner/Algorithm_Interview_Notes-Chinese/blob/master/B-%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/A-%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E5%9F%BA%E7%A1%80.md)
+- https://github.com/leerumor/ai-study
