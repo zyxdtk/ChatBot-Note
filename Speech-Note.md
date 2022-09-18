@@ -1,19 +1,22 @@
+# ASR-Note
 
 
-- [1. 大纲 Deep Learning for Human Language Processing](#1-大纲-deep-learning-for-human-language-processing)
-- [2. 语音识别 Speech Recognition](#2-语音识别-speech-recognition)
-  - [2.1. LAS listen,attend,spell](#21-las-listenattendspell)
-  - [2.2. CTC Connectionist Temporal Classification](#22-ctc-connectionist-temporal-classification)
-  - [2.3. HMM](#23-hmm)
-  - [2.4. Alignment](#24-alignment)
-  - [2.5. RNN-T](#25-rnn-t)
-  - [2.6. Language Modeling](#26-language-modeling)
-- [3. Voice Conversion](#3-voice-conversion)
-- [4. Speech Separation](#4-speech-separation)
+## 基础概念
+
+[Phoneme的相关概念以及Triphone](https://zhuanlan.zhihu.com/p/322194937)
+1. 词 words
+2. 单音 syllables  实际上它本身并不是一个音，而是好几个拼在一起的，比如中文里的声母韵母。syallable其实没法直接评价，因为他是依赖于语言的，不同语言的syllable总数会相差很多
+3. 音素 phonemes  语言学中一个语言最小基本单位音
+4. Triphone  直接解决了前后文影响（context-dependency）的问题，并且也满足普适性，但他数据量太大
+
+
+[ASR中常用的语音特征之FBank和MFCC](https://blog.csdn.net/Magical_Bubble/article/details/90295814)
+- FBank特征（Filter Banks） FBank特征的提取更多的是希望符合声音信号的本质，拟合人耳接收的特性。因为神经网络对高度相关的信息不敏感,FBank特征越来越流行。
+- MFCC特征（Mel-frequency Cepstral Coefficients）MFCC特征多的那一步则是受限于一些机器学习算法。很早之前MFCC特征和GMMs-HMMs方法结合是ASR的主流。
 
 
 
-# 1. 大纲 Deep Learning for Human Language Processing
+## 1. 大纲 Deep Learning for Human Language Processing
 
 [courses_DLHLP20](http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html)
 [B站-[李宏毅]自然语言处理(2020)](https://www.bilibili.com/video/BV1wE411W7TV?p=1&vd_source=72bd417d3c61f48a1851179442d7083c)
@@ -63,7 +66,7 @@
 - autoregression 自回归
 - 非自回归
 
-# 2. 语音识别 Speech Recognition
+## 2. 语音识别 Speech Recognition
 
 - 描述SR问题
   - speech  一个vector的序列 (长度T，维度d)
@@ -98,7 +101,7 @@
   - HMM-hybrid(15%)
 
 
-## 2.1. LAS listen,attend,spell
+### 2.1. LAS listen,attend,spell
 
 - Listen 
   - RNN、1-D CNN
@@ -118,17 +121,17 @@ LAS不是一开始就超越传统模型的，是语料逐渐增加，逐渐优�
 
 LAS的限制，不能一边听一边输出
 
-## 2.2. CTC Connectionist Temporal Classification
+### 2.2. CTC Connectionist Temporal Classification
 
-## 2.3. HMM
+### 2.3. HMM
 
-## 2.4. Alignment
+### 2.4. Alignment
 
-## 2.5. RNN-T
+### 2.5. RNN-T
 
-## 2.6. Language Modeling
+### 2.6. Language Modeling
 
-# 3. Voice Conversion
+## 3. Voice Conversion
 
 - 应用
   - 不同的人的声音作用不同
@@ -171,7 +174,7 @@ LAS的限制，不能一边听一边输出
         - starGAN
 
 
-# 4. Speech Separation
+## 4. Speech Separation
 
 - Evaluation
   - Signal-to-noise ratio(SNR) 不太好
