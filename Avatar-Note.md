@@ -23,6 +23,10 @@ VAM信息：
   - vr黄油目前当然的no.1，没有之一。吊打i社的什么playhome，honey select，honey select2，ai girls。唯一能匹敌的大概是老滚试验室mod吧。
 - [Mesh是微软为开发者提供用来创建多人XR应用程序的开发工具](https://vr.ofweek.com/news/2021-03/ART-815003-8110-30488583.html)
 - [CINEMA 4D篇—简介/安装/界面/基本功能](https://huke88.com/article/3227.html)
+- [捏脸作者  VAM K7（颜时代）](https://afdian.net/a/k7k7k7)
+- http://www.vamgame.com/ 
+- [VAM新手简单入坑指南（100%手把手新人vam游戏教程）](http://www.8pmx.com/108.html)
+- [自学C4D，不要错过这些教程](https://zhuanlan.zhihu.com/p/26277569)
 
 
 ## audio2face
