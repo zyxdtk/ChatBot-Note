@@ -24,8 +24,6 @@
 
 ## 2.1. 数据集&指标
 
-- [BLEU](https://blog.csdn.net/qq_36652619/article/details/87544918)
-
 语料库
 - [腾讯AI实验室的语料库](https://ai.tencent.com/ailab/nlp/zh/download.html)
 - [悟道2.0语料](https://resource.wudaoai.cn/home?ind&name=WuDaoCorpora%202.0&id=1394901288847716352) WuDaoCorpora2.0由全球最大的纯文本数据集(总量3TB、开源200GB)、全球最大的多模态数据集(93TB，6.5亿图文对，开源500w对)和全球最大的中文对话数据集(181G,对话轮数1.4B，不开源)三部分构成。
@@ -38,7 +36,7 @@
   - [2018]. [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/abs/1801.07243) 
   - [GPT]
   - [GPT2]()
-    - [5.1k] [GPT2]
+    - [15.7k] [GPT2](https://github.com/openai/gpt-2)
     - [izeyao/GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese) 中文版GPT2
   - [2020]. [GPT3](https://arxiv.org/pdf/2005.14165.pdf) [【汉】](https://zhuanlan.zhihu.com/p/200978538)
     - [11.4k] [openai/gpt-3](https://github.com/openai/gpt-3) 
@@ -60,6 +58,8 @@
   - [2021]. [A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/abs/2112.00861) 
   - [2022]. [Prompt-Driven Neural Machine Translation](https://aclanthology.org/2022.findings-acl.203.pdf) 尝试了单独给prompt一个encode，把prompt加载输入上等方式。
   - [2022]. [Chain of Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+- RLHF
+  - [2021]. [A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/abs/2112.00861) PMP，偏好模型预训练，用互联网数据如Reditt等的语料做预训练。
 
 
 ## 2.3. 开源项目

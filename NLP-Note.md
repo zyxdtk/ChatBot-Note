@@ -2,8 +2,10 @@
 
 ## 评价
 
-- 困惑度 Perplexity
+- [困惑度 Perplexity](https://blog.csdn.net/index20001/article/details/78884646)
 - [BLEU](https://blog.csdn.net/qq_21190081/article/details/53115580)
+- [BLEU](https://blog.csdn.net/qq_36652619/article/details/87544918)
+- [acc](https://zhuanlan.zhihu.com/p/45465603)  acc=right/all 
 
 ## NLP的用途和挑战 
 为什么难
@@ -47,3 +49,8 @@
 - [【官方】【中英】CS224n 斯坦福深度自然语言处理课 B站视频](https://www.bilibili.com/video/BV1pt411h7aT?from=search&seid=335450819919994778) 英文还是优点吃不消
 - [NLP-NLP基础](https://github.com/DarLiner/Algorithm_Interview_Notes-Chinese/blob/master/B-%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/A-%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E5%9F%BA%E7%A1%80.md)
 - https://github.com/leerumor/ai-study
+
+
+- https://kexue.fm/archives/9529
+- https://github.com/TingFree/NLPer-Arsenal  收录NLP竞赛策略实现、各任务baseline、相关竞赛经验贴（当前赛事、往期赛事、训练赛）、NLP会议时间、常用自媒体、GPU推荐等
+- www.sbert.net
