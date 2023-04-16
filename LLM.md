@@ -29,4 +29,11 @@
 
 - [Is Power-Seeking AI an Existential Risk?](https://arxiv.org/pdf/2206.13353.pdf)
 
+## 可解释
+
+- [为什么说 GPT 是无损压缩](https://bigeagle.me/2023/03/llm-is-compression/)
+## 新闻
+
+- 2023-04-10 商汤发布商量大模型
+- 2023-04-11 阿里发布通义大模型，阿里CEO张勇称阿里所有产品将用大模型改造。
 

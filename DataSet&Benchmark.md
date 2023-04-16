@@ -33,6 +33,8 @@
 - [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/pdf/2203.03466.pdf)
 - [如何用数据并行训练万亿参数模型？](https://zhuanlan.zhihu.com/p/402232568)
 
+- [Pytorch 分布式训练](https://zhuanlan.zhihu.com/p/76638962)
+
 ## Perf
 
 - [MLCommons](https://github.com/orgs/mlcommons/repositories?type=all)  The mission of MLCommons™ is to make machine learning better for everyone.

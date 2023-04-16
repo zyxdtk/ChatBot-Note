@@ -41,6 +41,11 @@
 - DL为什么需要非线性。如果没有非线性单元，他其实只是一个线性转化。
 
 
+## 搜索
+
+- [facebookresearch/faiss](https://github.com/facebookresearch/faiss/wiki)
+  - [Billion-scale similarity search with GPUs](https://arxiv.org/pdf/1702.08734.pdf)
+
 ## 学习资料
 
 - [【李宏毅】自然语言处理(2020)B站视频](https://www.bilibili.com/video/BV1wE411W7TV?p=2)
