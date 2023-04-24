@@ -8,7 +8,11 @@
 - [百度千言](https://www.luge.ai/#/luge/dataDetail?id=55)
   - [DuReaderretrieval: A Large-scale Chinese Benchmark for Passage Retrieval from Web Search Engine](https://arxiv.org/pdf/2203.10232.pdf)
 - [openai/human-eval](https://github.com/openai/human-eval) 评估代码语言模型
+- [CHINESE OPEN INSTRUCTION GENERALIST: A PRELIMINARY RELEASE](https://arxiv.org/pdf/2304.07987.pdf)
+- [T2Ranking: A large-scale Chinese Benchmark for Passage Ranking](https://arxiv.org/pdf/2304.03679.pdf)   [THUIR/T2Ranking](https://github.com/THUIR/T2Ranking/)
 
+- [UER:About Open Source Pre-training Model Framework in PyTorch & Pre-trained Model Zoo](https://github.com/dbiir/UER-py)
+- [huggingface-transformers](https://huggingface.co/docs/transformers/model_summary)
 ## Benchmark
 
 - [BEIR](https://github.com/beir-cellar/beir) 信息检索Benchmark
@@ -35,10 +39,13 @@
 
 - [Pytorch 分布式训练](https://zhuanlan.zhihu.com/p/76638962)
 
+
+- [Billion-scale similarity search with GPUs](https://arxiv.org/pdf/1702.08734.pdf)
 ## Perf
 
 - [MLCommons](https://github.com/orgs/mlcommons/repositories?type=all)  The mission of MLCommons™ is to make machine learning better for everyone.
   - [2022:We’re Training AI Twice as Fast This Year as Last](https://spectrum.ieee.org/mlperf-rankings-2022)
+
 
 ## 分词
 
