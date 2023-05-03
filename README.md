@@ -3,7 +3,7 @@
 
 - [1. ChatBot-Note](#1-chatbot-note)
 - [2. 文本对话](#2-文本对话)
-  - [2.1. 数据集&指标](#21-数据集指标)
+  - [2.1. 数据集\&指标](#21-数据集指标)
   - [2.2. 对话模型](#22-对话模型)
   - [2.3. 开源项目](#23-开源项目)
   - [2.4. NLP基础](#24-nlp基础)
@@ -31,35 +31,6 @@
 - [百度DuReader-Retrieval](https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval) 百度利用真实场景下的用户搜索日志，建立了首个大规模高质量中文段落检索数据集
 
 ## 2.2. 对话模型
-
-- 预训练大模型
-  - [2018]. [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/abs/1801.07243) 
-  - [GPT]
-  - [GPT2]()
-    - [15.7k] [GPT2](https://github.com/openai/gpt-2)
-    - [izeyao/GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese) 中文版GPT2
-  - [2020]. [GPT3](https://arxiv.org/pdf/2005.14165.pdf) [【汉】](https://zhuanlan.zhihu.com/p/200978538)
-    - [11.4k] [openai/gpt-3](https://github.com/openai/gpt-3) 
-    - [3.6k] [elyase/awesome-gpt3](https://github.com/elyase/awesome-gpt3)
-    - [GPT1、GPT2、GPT3原理](https://blog.csdn.net/qq_41357569/article/details/121731981)
-    - [GPT-3的50种玩法告诉你，它很酷，但是没有通过图灵测试](https://zhuanlan.zhihu.com/p/252851574)
-  - [lamda: language models for dialog applications](https://arxiv.org/pdf/2201.08239.pdf)[【汉】](https://zhuanlan.zhihu.com/p/462022601)
-  - [Towards a Human-like Open-Domain Chatbot](https://arxiv.org/abs/2001.09977)
-  - [EVA2.0：大规模中文开放域对话预训练模型](https://blog.csdn.net/weixin_42001089/article/details/123595667)
-  - [2021]. [Blender Bot 2.0](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/)
-  - CPM 清华做的中文预训练模型
-    - [yangjianxin1/CPM](https://github.com/yangjianxin1/CPM) 基于CPM的中文文本生成,开源代码库
-    - [CPM-2: Large-scale Cost-effective Pre-trained Language Models](https://arxiv.org/pdf/2106.10715.pdf) [【汉】](https://blog.csdn.net/BAAIBeijing/article/details/118125026)
-- 任务
-  - [2022]. [Language Models that Seek for Knowledge: Modular Search & Generation for Dialogue and Prompt Completion](https://arxiv.org/abs/2203.13224) 引入搜索到的知识，包含三个模块依次得到：搜搜query，知识序列，最终的回应。在对话任务上超过了blender bot2，评价指标是知识性、事实正确、吸引力。在语言建模上，相比GPT2和GPT3，幻想更少，更有话题性。
-      - [parlAI seeker](https://github.com/MiniMax-AI/ParlAI/tree/main/projects/seeker)
-- prompt干预
-  - [2021]. [Controllable Generation from Pre-trained Language Models via Inverse Prompting](https://arxiv.org/pdf/2103.10685.pdf) 用反向prompt来校验prompt的输出
-  - [2021]. [A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/abs/2112.00861) 
-  - [2022]. [Prompt-Driven Neural Machine Translation](https://aclanthology.org/2022.findings-acl.203.pdf) 尝试了单独给prompt一个encode，把prompt加载输入上等方式。
-  - [2022]. [Chain of Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
-- RLHF
-  - [2021]. [A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/abs/2112.00861) PMP，偏好模型预训练，用互联网数据如Reditt等的语料做预训练。
 
 
 ## 2.3. 开源项目
