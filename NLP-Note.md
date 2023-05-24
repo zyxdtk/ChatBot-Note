@@ -3,8 +3,9 @@
 ## 评价
 
 - [困惑度 Perplexity](https://blog.csdn.net/index20001/article/details/78884646)
-- [BLEU](https://blog.csdn.net/qq_21190081/article/details/53115580)
-- [BLEU](https://blog.csdn.net/qq_36652619/article/details/87544918)
+- [BLEU: a Method for Automatic Evaluation of Machine Translation](https://aclanthology.org/P02-1040.pdf)
+  - [BLEU](https://blog.csdn.net/qq_21190081/article/details/53115580)
+  - [BLEU](https://blog.csdn.net/qq_36652619/article/details/87544918)
 - [acc](https://zhuanlan.zhihu.com/p/45465603)  acc=right/all 
 
 ## NLP的用途和挑战 
@@ -59,3 +60,5 @@
 - https://kexue.fm/archives/9529
 - https://github.com/TingFree/NLPer-Arsenal  收录NLP竞赛策略实现、各任务baseline、相关竞赛经验贴（当前赛事、往期赛事、训练赛）、NLP会议时间、常用自媒体、GPU推荐等
 - www.sbert.net
+
+- [A Cookbook of Self-Supervised Learning](https://arxiv.org/pdf/2304.12210.pdf)

@@ -6,11 +6,6 @@
 
 ## 数据集
 
-- [shibing624/nli_zh](https://huggingface.co/datasets/shibing624/nli_zh) 5个数据集，54w条样本
-
-
-### 数据集
-
 英文
 - [2014] [SemEval-2014 Task 10: Multilingual Semantic Textual Similarity](https://aclanthology.org/S14-2010/)
 - [msmarco](https://microsoft.github.io/msmarco/) 微软开源的深度学习数据集
@@ -75,6 +70,11 @@
 - [RocketQAv2: A Joint Training Method for Dense Passage Retrieval
 and Passage Re-ranking](https://arxiv.org/pdf/2110.07367.pdf)
 
+### 训练技巧
+
+- 如何处理False Negative
+  - [推荐系统召回模型batch内负采样训练时出现false negative问题的一些解决方案](https://zhuanlan.zhihu.com/p/613206891) GHM 梯度调和法
+  - [端到端问答新突破：百度提出RocketQA 精](https://ai.baidu.com/forum/topic/show/972410) 跨批次负采样
 ### 开源工具和产品
 
 - [openai-embedding](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) 只在英文上表现不错，在其他语言上表现比MB25差

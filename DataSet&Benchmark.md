@@ -15,6 +15,19 @@
 - [huggingface-transformers](https://huggingface.co/docs/transformers/model_summary)
 
 
+语义相似度
+- [CLUEbenchmark/SimCLUE](https://github.com/CLUEbenchmark/SimCLUE)
+- [shibing624/nli_zh](https://huggingface.co/datasets/shibing624/nli_zh)
+- [liucongg/NLPDataSet](https://github.com/liucongg/NLPDataSet)
+- [千言数据集：文本相似度](https://aistudio.baidu.com/aistudio/competition/detail/45/0/task-definition)
+- [DMetaSoul/chinese-semantic-textual-similarity](https://huggingface.co/datasets/DMetaSoul/chinese-semantic-textual-similarity)
+
+大模型数据集
+- [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data)
+  - [RedPajama-Data-CommonCrawl](https://github.com/togethercomputer/RedPajama-Data/tree/main/data_prep/cc)
+- [c4](https://paperswithcode.com/dataset/c4)
+  - [2022] [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683v3.pdf)
+  - [huggingface/c4](https://huggingface.co/datasets/allenai/c4#license)
 ### Benchmark
 
 - [BEIR](https://github.com/beir-cellar/beir) 信息检索Benchmark
@@ -49,6 +62,19 @@
   - [2022:We’re Training AI Twice as Fast This Year as Last](https://spectrum.ieee.org/mlperf-rankings-2022)
 
 
-## 分词
+## 数据清洗
 
-- [rsennrich/subword-nmt](https://github.com/rsennrich/subword-nmt)
+- [2019] [CCNet: Extracting High Quality Monolingual Datasets from Web Crawl Data](https://arxiv.org/abs/1911.00359)
+  - [facebookresearch/cc_net](https://github.com/facebookresearch/cc_net)
+  - [kpu/kenlm](https://github.com/kpu/kenlm)
+  - [google/sentencepiece](https://github.com/google/sentencepiece)
+- [ngram语言模型—基于KneserNey及Modified Kneser Ney平滑](https://blog.csdn.net/weixin_42498517/article/details/103608763)
+
+## 数据可视化
+
+- [hazyresearch/meerkat](https://github.com/hazyresearch/meerkat) 基础大模型的数据可视化
+
+## 重采样
+
+- [DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining](https://arxiv.org/pdf/2305.10429.pdf)
+- [2023] [Data Selection for Language Models via Importance Resampling](https://arxiv.org/pdf/2302.03169.pdf)
