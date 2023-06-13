@@ -23,6 +23,7 @@
 - CPM 清华做的中文预训练模型
   - [yangjianxin1/CPM](https://github.com/yangjianxin1/CPM) 基于CPM的中文文本生成,开源代码库
   - [CPM-2: Large-scale Cost-effective Pre-trained Language Models](https://arxiv.org/pdf/2106.10715.pdf) [【汉】](https://blog.csdn.net/BAAIBeijing/article/details/118125026)
+- [2022] [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/pdf/2205.01068.pdf) 
 - [2022] [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://arxiv.org/pdf/2112.06905.pdf)
 - [2023] [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf)
   - [为什么说 GPT 是无损压缩](https://bigeagle.me/2023/03/llm-is-compression/)
@@ -32,12 +33,9 @@
 - [2023] [MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://github.com/Vision-CAIR/MiniGPT-4)   [demo](https://minigpt-4.github.io/)
 - [2023] [SCALING LAWS FOR GENERATIVE MIXED-MODAL LANGUAGE MODELS](https://arxiv.org/pdf/2301.03728.pdf)
 - [2023] [BloombergGPT: A Large Language Model for Finance](https://arxiv.org/pdf/2303.17564.pdf)
-- [2023] [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971)
-  - 
 - [] [TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION](https://arxiv.org/pdf/2108.12409.pdf)
 - [OPT]()
   - [Open Pretrained Transformers - Susan Zhang | Stanford MLSys #77](https://www.youtube.com/watch?v=p9IxoSkvZ-M) 
-- [Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446)
 - [Data Selection for Language Models via Importance Resampling](https://arxiv.org/abs/2302.03169)
 - [2023] [dandelionsllm/pandallm/](https://github.com/dandelionsllm/pandallm/)
 
@@ -114,3 +112,4 @@
 
 
 - [Innovating with the freedom to explore, discover and apply AI at scale.](https://ai.facebook.com/research/)
+- [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/pdf/2305.15717.pdf)
