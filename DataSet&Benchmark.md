@@ -83,7 +83,7 @@
 ### 去重
 
 - [ChenghaoMou/text-dedup](https://github.com/ChenghaoMou/text-dedup) 对比了多种方法，minhash最好
-- [2022] [Deduplicating Training Data Makes Language Models Better](https://arxiv.org/pdf/2001.08435.pdf) 去重可以避免记忆，用到精确子串去重+minhash
+- [2022] [Deduplicating Training Data Makes Language Models Better](https://arxiv.org/abs/2107.06499) 去重可以避免记忆，用到精确子串去重+minhash
   - [deduplicate-text-datasetsr](https://github.com/google-research/deduplicate-text-datasets)
 - minhash+lsh
   - [ekzhu/datasketch](https://github.com/ekzhu/datasketch) 实现了minhash等多种去重算法

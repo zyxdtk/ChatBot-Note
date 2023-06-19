@@ -19,12 +19,18 @@
 - [lamda: language models for dialog applications](https://arxiv.org/pdf/2201.08239.pdf)[【汉】](https://zhuanlan.zhihu.com/p/462022601)
 - [Towards a Human-like Open-Domain Chatbot](https://arxiv.org/abs/2001.09977)
 - [EVA2.0：大规模中文开放域对话预训练模型](https://blog.csdn.net/weixin_42001089/article/details/123595667)
+- [2020] [BlenderBot 1.0: A state-of-the-art open source chatbot](https://ai.facebook.com/blog/state-of-the-art-open-source-chatbot/)
+  - [Recipes for building an open-domain chatbot](https://arxiv.org/abs/2004.13637)
+  - [code](https://parl.ai/projects/recipes/)
 - [2021]. [Blender Bot 2.0](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/)
 - CPM 清华做的中文预训练模型
   - [yangjianxin1/CPM](https://github.com/yangjianxin1/CPM) 基于CPM的中文文本生成,开源代码库
   - [CPM-2: Large-scale Cost-effective Pre-trained Language Models](https://arxiv.org/pdf/2106.10715.pdf) [【汉】](https://blog.csdn.net/BAAIBeijing/article/details/118125026)
+- [2021] [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 - [2022] [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/pdf/2205.01068.pdf) 
 - [2022] [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://arxiv.org/pdf/2112.06905.pdf)
+- [2022] [Training Compute-Optimal Large Language Models](https://arxiv.org/pdf/2203.15556.pdf) Chinchilla.
+- [2022] [BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage](https://arxiv.org/pdf/2208.03188.pdf)
 - [2023] [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf)
   - [为什么说 GPT 是无损压缩](https://bigeagle.me/2023/03/llm-is-compression/)
   - [Towards Complex Reasoning: the Polaris of Large Language Models](https://yaofu.notion.site/Towards-Complex-Reasoning-the-Polaris-of-Large-Language-Models-c2b4a51355b44764975f88e6a42d4e75)
@@ -38,6 +44,8 @@
   - [Open Pretrained Transformers - Susan Zhang | Stanford MLSys #77](https://www.youtube.com/watch?v=p9IxoSkvZ-M) 
 - [Data Selection for Language Models via Importance Resampling](https://arxiv.org/abs/2302.03169)
 - [2023] [dandelionsllm/pandallm/](https://github.com/dandelionsllm/pandallm/)
+
+
 
 #### 数据预处理
 
