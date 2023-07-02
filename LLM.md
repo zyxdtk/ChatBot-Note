@@ -19,18 +19,24 @@
 - [lamda: language models for dialog applications](https://arxiv.org/pdf/2201.08239.pdf)[【汉】](https://zhuanlan.zhihu.com/p/462022601)
 - [Towards a Human-like Open-Domain Chatbot](https://arxiv.org/abs/2001.09977)
 - [EVA2.0：大规模中文开放域对话预训练模型](https://blog.csdn.net/weixin_42001089/article/details/123595667)
+- [2020] [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361.pdf)
 - [2020] [BlenderBot 1.0: A state-of-the-art open source chatbot](https://ai.facebook.com/blog/state-of-the-art-open-source-chatbot/)
   - [Recipes for building an open-domain chatbot](https://arxiv.org/abs/2004.13637)
   - [code](https://parl.ai/projects/recipes/)
 - [2021]. [Blender Bot 2.0](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/)
+  - [code](https://parl.ai/projects/blenderbot2/)
+  - [Internet-Augmented Dialogue Generation](https://parl.ai/projects/sea/) 
+  - [2021] [Beyond Goldfish Memory∗: Long-Term Open-Domain Conversation](https://arxiv.org/pdf/2107.07567.pdf) 在blendbot1.0的基础上finetune, 用dpr在长期记忆中检索相关段落，用 encoder-decoder提取相关知识，最后生成回答。
+  - [Reason first, then respond:Modular Generation for Knowledge-infused Dialogue](https://arxiv.org/pdf/2111.05204.pdf) 用多任务训练知识提取和回答生成模型。
 - CPM 清华做的中文预训练模型
   - [yangjianxin1/CPM](https://github.com/yangjianxin1/CPM) 基于CPM的中文文本生成,开源代码库
   - [CPM-2: Large-scale Cost-effective Pre-trained Language Models](https://arxiv.org/pdf/2106.10715.pdf) [【汉】](https://blog.csdn.net/BAAIBeijing/article/details/118125026)
 - [2021] [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 - [2022] [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/pdf/2205.01068.pdf) 
 - [2022] [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://arxiv.org/pdf/2112.06905.pdf)
-- [2022] [Training Compute-Optimal Large Language Models](https://arxiv.org/pdf/2203.15556.pdf) Chinchilla.
-- [2022] [BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage](https://arxiv.org/pdf/2208.03188.pdf)
+- [2022] [Training Compute-Optimal Large Language Models](https://arxiv.org/pdf/2203.15556.pdf) Chinchilla. 用函数拟合模型大小和样本大小跟loss的关系
+- [2022] [BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage](https://arxiv.org/pdf/2208.03188.pdf) 生成模型换成175B的opt,用SeeKeR引入搜索互联网信息。
+  - [blenderbot](https://huggingface.co/docs/transformers/model_doc/blenderbot)
 - [2023] [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf)
   - [为什么说 GPT 是无损压缩](https://bigeagle.me/2023/03/llm-is-compression/)
   - [Towards Complex Reasoning: the Polaris of Large Language Models](https://yaofu.notion.site/Towards-Complex-Reasoning-the-Polaris-of-Large-Language-Models-c2b4a51355b44764975f88e6a42d4e75)
@@ -44,6 +50,7 @@
   - [Open Pretrained Transformers - Susan Zhang | Stanford MLSys #77](https://www.youtube.com/watch?v=p9IxoSkvZ-M) 
 - [Data Selection for Language Models via Importance Resampling](https://arxiv.org/abs/2302.03169)
 - [2023] [dandelionsllm/pandallm/](https://github.com/dandelionsllm/pandallm/)
+- [The RefinedWeb Dataset for Falcon LLM:Outperforming Curated Corpora with Web Data, and Web Data Only](https://arxiv.org/pdf/2306.01116.pdf)
 
 
 
@@ -86,8 +93,14 @@
 - []2023] [OpenAssistant Conversations -- Democratizing Large Language Model Alignment](https://arxiv.org/abs/2304.07327)
 - [2022]. [Language Models that Seek for Knowledge: Modular Search & Generation for Dialogue and Prompt Completion](https://arxiv.org/abs/2203.13224) 引入搜索到的知识，包含三个模块依次得到：搜搜query，知识序列，最终的回应。在对话任务上超过了blender bot2，评价指标是知识性、事实正确、吸引力。在语言建模上，相比GPT2和GPT3，幻想更少，更有话题性。
       - [parlAI seeker](https://github.com/MiniMax-AI/ParlAI/tree/main/projects/seeker)
+
+### 模型应用
+
+- [WebGLM](https://github.com/THUDM/WebGLM)
+
 ## 模型评估
 
+- [open_llm_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [2022] [DeepMind: Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446) 在152种任务上测试发现：规模对阅读理解、事实检查、毒性鉴别有用，对逻辑推理、数学推理作用较小。
 - [evalplus/evalplus](https://github.com/evalplus/evalplus)
 
@@ -115,6 +128,7 @@
 - [facebookresearch/llama](https://github.com/facebookresearch/llama)
   - [facebookresearch/xformers](https://github.com/facebookresearch/xformers)
   - [facebookresearch/cc_net](https://github.com/facebookresearch/cc_net)
+  - [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data)
 - [ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca/tree/main)
 - [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 

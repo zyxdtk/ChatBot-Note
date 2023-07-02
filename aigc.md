@@ -8,4 +8,6 @@
 
 
 
+
 - [2023] [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243)
+  - [I-JEPA: The first AI model based on Yann LeCun’s vision for more human-like AI](https://ai.facebook.com/blog/yann-lecun-ai-model-i-jepa/) 
