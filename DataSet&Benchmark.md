@@ -98,7 +98,6 @@
   - [Document deduplication using Locality Sensitive Hashing (LSH) with minhash](https://github.com/mattilyra/LSH/blob/master/examples/Introduction.ipynb)
   - [MinHashLSH](https://spark.apache.org/docs/3.1.1/api/python/reference/api/pyspark.ml.feature.MinHashLSH.html)
   - [Uber实践基于局部敏感哈希LSH](https://blog.csdn.net/sinat_15443203/article/details/83756187)
-  - [non_dialogue_minhash_homework](https://gitlab.xaminim.com/nlp/daodao/-/blob/feat/zhanglingyu/data_clean/solution/pretrain/data_clean/non_dialogue_data_clean/non_dialogue_minhash_homework.py) 灵玉的minhash+lsh
 
 
   
