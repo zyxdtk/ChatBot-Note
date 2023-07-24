@@ -37,6 +37,8 @@
 - [2022] [Training Compute-Optimal Large Language Models](https://arxiv.org/pdf/2203.15556.pdf) Chinchilla. 用函数拟合模型大小和样本大小跟loss的关系
 - [2022] [BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage](https://arxiv.org/pdf/2208.03188.pdf) 生成模型换成175B的opt,用SeeKeR引入搜索互联网信息。
   - [blenderbot](https://huggingface.co/docs/transformers/model_doc/blenderbot)
+- [2022] [Minerva:Solving Quantitative Reasoning Problems with Language Models](https://arxiv.org/pdf/2206.14858.pdf)
+- [2022] [GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414)
 - [2023] [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf)
   - [为什么说 GPT 是无损压缩](https://bigeagle.me/2023/03/llm-is-compression/)
   - [Towards Complex Reasoning: the Polaris of Large Language Models](https://yaofu.notion.site/Towards-Complex-Reasoning-the-Polaris-of-Large-Language-Models-c2b4a51355b44764975f88e6a42d4e75)
@@ -50,7 +52,7 @@
   - [Open Pretrained Transformers - Susan Zhang | Stanford MLSys #77](https://www.youtube.com/watch?v=p9IxoSkvZ-M) 
 - [Data Selection for Language Models via Importance Resampling](https://arxiv.org/abs/2302.03169)
 - [2023] [dandelionsllm/pandallm/](https://github.com/dandelionsllm/pandallm/)
-- [The RefinedWeb Dataset for Falcon LLM:Outperforming Curated Corpora with Web Data, and Web Data Only](https://arxiv.org/pdf/2306.01116.pdf)
+- [2023] [The RefinedWeb Dataset for Falcon LLM:Outperforming Curated Corpora with Web Data, and Web Data Only](https://arxiv.org/pdf/2306.01116.pdf)
 
 
 
@@ -72,6 +74,7 @@
 
 - [2023] [CHINESE OPEN INSTRUCTION GENERALIST: A PRELIMINARY RELEASE](https://arxiv.org/pdf/2304.07987.pdf)
 - [NLP预训练/指令微调数据集](https://github.com/CVI-SZU/Linly)
+- [2023] [June 2023, A Stage Review of Instruction Tuning](https://yaofu.notion.site/June-2023-A-Stage-Review-of-Instruction-Tuning-f59dbfc36e2d4e12a33443bd6b2012c2)
 
 ### RLHF
 
@@ -93,6 +96,8 @@
 - []2023] [OpenAssistant Conversations -- Democratizing Large Language Model Alignment](https://arxiv.org/abs/2304.07327)
 - [2022]. [Language Models that Seek for Knowledge: Modular Search & Generation for Dialogue and Prompt Completion](https://arxiv.org/abs/2203.13224) 引入搜索到的知识，包含三个模块依次得到：搜搜query，知识序列，最终的回应。在对话任务上超过了blender bot2，评价指标是知识性、事实正确、吸引力。在语言建模上，相比GPT2和GPT3，幻想更少，更有话题性。
       - [parlAI seeker](https://github.com/MiniMax-AI/ParlAI/tree/main/projects/seeker)
+- [2023]. [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050)
+- [2023]. [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 
 ### 模型应用
 
@@ -103,6 +108,12 @@
 - [open_llm_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [2022] [DeepMind: Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446) 在152种任务上测试发现：规模对阅读理解、事实检查、毒性鉴别有用，对逻辑推理、数学推理作用较小。
 - [evalplus/evalplus](https://github.com/evalplus/evalplus)
+- [InternLM/opencompass](https://github.com/InternLM/opencompass)
+
+### 可解释性
+
+- [Language models can explain neurons in language models](https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html) [汉](https://zhuanlan.zhihu.com/p/632927273)
+- 
 
 ### 标注
 

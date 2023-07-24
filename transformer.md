@@ -1,5 +1,6 @@
 # Transformer
 
+- [Fast Transformer Decoding: One Write-Head is All You Need](https://arxiv.org/abs/1911.02150)
 
 ## Norm
 

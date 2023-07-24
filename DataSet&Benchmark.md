@@ -34,8 +34,14 @@
 
 - [BEIR](https://github.com/beir-cellar/beir) 信息检索Benchmark
 - [CLUEbenchmark](https://github.com/CLUEbenchmark) 中文语言理解测评基准
-
-
+- [Xiezhi: An Ever-Updating Benchmark for Holistic Domain Knowledge Evaluation](https://arxiv.org/pdf/2306.05783.pdf)
+  -  [XiezhiBenchmark](https://github.com/MikeGu721/XiezhiBenchmark)
+- [MMLU](https://github.com/hendrycks/test) 大量多任务语言理解，57个任务
+  - [MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING](https://arxiv.org/pdf/2009.03300.pdf) 
+- [Leaderboard - C-Eval](https://cevalbenchmark.com/static/leaderboard.html) 中文评估集
+- [GSM8K](https://github.com/openai/grade-school-math) 研究生数学题
+- [BBH-HARD](https://github.com/suzgunmirac/BIG-Bench-Hard)
+  - [Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them](https://arxiv.org/abs/2210.09261)
 ## 计算框架
 
 - [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) 
